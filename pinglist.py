@@ -13,8 +13,8 @@ if len(args) == 2:
 
 	if os.path.exists(args[1]):
 		switch_ips = open(args[1]).read().splitlines()
-		print '\nIP addresses are ', switch_ips
-		print "=" * 25
+		print ('\nIP addresses are ', switch_ips)
+		print ("=" * 25)
 		print "START PING TEST"
 		print "=" * 25
 
